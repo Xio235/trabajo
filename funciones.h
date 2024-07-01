@@ -1,0 +1,10 @@
+void buscarPorCapacidad(int *numCuarto, char cuartos[][3][40], double tarifas[]);
+void buscarPorHotel(int *numCuarto, char cuartos[][3][40], double tarifas[]);
+void hacerReserva(int numCuarto, char cuartos[][3][40], char huespedes[][2][40], int reservas[][4]);
+void buscarReservaPorCedula(int *numReserva, char huespedes[][2][40], int reservas[][4]);
+void imprimirReserva(int numReserva, int reservas[][4], char cuartos[][3][40], double tarifas[], char huespedes[][2][40]);
+void pagarReserva(int numReserva, int reservas[][4], char cuartos[][3][40], double tarifas[]);
+void leerHuespedes(char huespedes[][2][40], const char *filename);
+void leerReservas(int reservas[][4], const char *filename);
+void guardarHuespedes(char huespedes[][2][40], const char *filename);
+void guardarReservas(int reservas[][4], const char *filename);
